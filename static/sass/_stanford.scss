@@ -10,32 +10,32 @@
 //-----------------
 
 //Cardinal Color Variables
-$cardinal-red: #8C1515;
-$dark-red: #820000; //Link Color
+$cardinal-red: #9dd169;
+$dark-red: #84c642; //Link Color
 $cardinal-light: #4599C3; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $cardinal-bg: #4599C3; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Beige Color Variables
-$beige: #9d9573;
+$beige: #6badc6;
 $beige-60: lighten($beige, 18.5%); //Main Border/HR Color
 $beige-25: lighten($beige, 25%); 
 
 //Sandstone Color Variables
-$sandstone: #ddcf99;
+$sandstone: #bcbcbc;
 $sandstone-50: lighten($sandstone, 9%);
 $sandstone-25: lighten($sandstone, 20%); //Important Heading BG Color 
 
 //Gray Color Variables
-$gray: #3f3c30; //Main Text Color
+$gray: #373737; //Main Text Color
 $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
-$gray-3: #e9e6df; //Block/Course BG Color
-$gray-2: #f2f1eb;
-$gray-1: #fbfbf9; //Main BG Color
-$white: $gray-1;
+$gray-3: #ebebeb; //Block/Course BG Color
+$gray-2: #f4f4f4;
+$gray-1: #fbfbfb; //Main BG Color
+$white: #ffffff;
 
-$black: #2e2d29;
-$black-80: #585754;
+$black: #2c2c2c;
+$black-80: #575757;
 
 
 
@@ -62,7 +62,7 @@ $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
 $header-image: none;
-$header-bg: transparentize(lighten($sandstone, 18.5%), .25);
+$header-bg: $white;
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $footer-bg: $sandstone-25;
